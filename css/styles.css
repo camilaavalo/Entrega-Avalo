@@ -231,9 +231,9 @@ a {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .fotoFechas {
-    width: 440px;
+    width: 300px;
     margin-left: 0px;
   }
 }
