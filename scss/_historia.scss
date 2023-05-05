@@ -1,0 +1,16 @@
+.textoNacimiento{
+    display: grid;
+    grid-template-columns: 70%;
+}
+
+.carousel-inner{
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .textoNacimiento{display: grid;
+        grid-template-columns: 100%;}
+    }

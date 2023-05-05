@@ -1,19 +1,19 @@
-/* *{ margin: 0;
+*{ margin: 0;
 padding: 0;
 box-sizing: border-box;}
 
-html{font-size: 62.5%;} */
+html{font-size: 62.5%;}
 
 /* general */
 
-/* #fondo{background-color: rgb(0, 0, 0);}
+#fondo{background-color: rgb(0, 0, 0);}
 
 body {font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
     ;
-} */
+}
 
-/* .container-fluid{background-color:#29243a;
+.container-fluid{background-color:#29243a;
     color: white;
     font-size: 20px;
 }
@@ -33,12 +33,12 @@ a {font-size: 20px;
     display: block;
     color: white;
     text-decoration: none;
-} */
+}
 
 
 /* index */
 
-/* .titulo{ padding: 40px;
+.titulo{ padding: 40px;
 }
 
 .titulo h1{font-weight: 900;
@@ -70,9 +70,8 @@ a {font-size: 20px;
         font-size: 15px;
         
     }
- */
 
-/* .imagenTexto{ display: grid;
+.imagenTexto{ display: grid;
 grid-template-columns: 50%;
 grid-template-areas: 
 "texto1 imagen"
@@ -88,19 +87,19 @@ grid-template-areas:
 .foto1{grid-area: imagen;
     width: 600px;
     padding-left: 30px;
-} */
+}
 
 /* historia */
 
-/* .textoNacimiento{display: grid;
+.textoNacimiento{display: grid;
 grid-template-columns: 70%;}
 
 .carousel-inner{padding-bottom: 20px;
-    padding-left: 40px;} */
+    padding-left: 40px;}
 
 /* tour */
 
-/* .fotoFechas{width: 1000px;
+.fotoFechas{width: 1000px;
 display: flex ;
 justify-content: center;
 margin-left: 90px;
@@ -126,13 +125,13 @@ font-size: 36px;
 .fechaImportante input { width: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
-} */
+}
 
-/* .botonImportante{
+.botonImportante{
 justify-self: center;
-} */
+}
 
-/* .tour{display: grid;
+.tour{display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: "lugar dia boton"
                 }
@@ -150,10 +149,10 @@ justify-self: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
- */
+
 /* discografia */
 
-/* .spotify { margin: 10px;
+.spotify { margin: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat (2, 1fr);
@@ -167,15 +166,15 @@ justify-self: center;
     .spotify3{ grid-area: spotify3; margin: 30px;}
     .spotify4{ grid-area: spotify4; margin: 30px;}
     .spotify5{ grid-area: spotify5; margin: 30px;}
-    .spotify6{ grid-area: spotify6; margin: 30px;} */
+    .spotify6{ grid-area: spotify6; margin: 30px;}
 
 /* contacto */
-/* label{padding-top: 10px;
+label{padding-top: 10px;
     font-size: 12px;
 }
- */
+
 /* footer */
-/* .pieDePagina{ background-color:rgb(41, 36, 58);
+.pieDePagina{ background-color:rgb(41, 36, 58);
         padding: 40px;
         display: flex;
     align-items: baseline;
@@ -187,13 +186,13 @@ justify-self: center;
 
 .pieDePagina h2 {font-weight: 700;
 font-size: 20px;
-padding-bottom: 20px;} */
+padding-bottom: 20px;}
 
 
 /* index responsive */
 
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .imagenTexto{ display: block ;
 }}
 
@@ -209,9 +208,9 @@ padding-bottom: 20px;} */
 @media screen and (max-width: 480px) {
     .video{ width: 400px;
     }
-}  */
+} 
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .titulo{ padding: 20px;
     }
 } 
@@ -230,27 +229,28 @@ padding-bottom: 20px;} */
     .titulo p{ padding-bottom: 30px; 
     font-size: 12px;
     
-}} */
+}}
 
 /* historia responsive */
 
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .textoNacimiento{display: grid;
-        grid-template-columns: 100%;} */
+        grid-template-columns: 100%;}
 
 /* discografia responsive */
 
-/* @media screen and (max-width: 480px) {.spotify {
+@media screen and (max-width: 480px) {.spotify {
             margin-left: 10px;
-            display: block}} */
+            display: block}}
 
 /* tour responsive */
-/* @media screen and (max-width: 768px) {   
+@media screen and (max-width: 768px) {   
     .fotoFechas{ width: 700px;
-    margin-left: 0px;} } */
+    margin-left: 0px;} }
 
     /* footer responsive */
-/*  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .pieDePagina {display: block;
-    padding-bottom: 10px;}} */
+    padding-bottom: 10px;}
+}}

@@ -1,0 +1,80 @@
+/* generales */
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+html{font-size: 62.5%;}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.titulo{ padding: 40px;
+
+        h1{
+        font-weight: 900;
+        font-size: 35px;
+        padding-bottom: 20px;
+        }
+        h2{ 
+        font-weight: 700;
+        font-size: 20px;
+        padding-bottom: 20px;
+        }
+        h3{
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+        }
+        h4{
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 20px;
+        }
+        h5{
+            font-size: 15px;
+        font-weight: 400;
+        padding-top: 20px
+        }
+        p{
+        padding-bottom: 30px; 
+        font-size: 15px;
+        }
+    }
+
+.pieDePagina{ 
+            background-color:rgb(41, 36, 58);
+            padding: 40px;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-around;
+}
+            a {
+                font-weight: 500;
+                /* margin-top: 20px */
+                }
+            h2 {
+                font-weight: 700;
+                font-size: 20px;
+                padding-bottom: 20px;
+            }
+
+@media screen and (max-width: 480px) {
+                .titulo{ padding: 20px;}
+                        h1{ 
+                            font-size: 25px;
+                        }
+                            h2{ 
+                                font-size: 20px;
+                            }
+                                p{ 
+                                    padding-bottom: 30px; 
+                                    font-size: 12px;
+                                }
+                .pieDePagina {
+                                display: block;
+                                padding-bottom: 20px;}
+        }

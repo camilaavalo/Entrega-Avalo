@@ -1,0 +1,35 @@
+.spotify{ 
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat (2, 1fr);
+    grid-template-areas: 
+    "spotify1 spotify2 spotify3" 
+    "spotify4 spotify5 spotify6";
+}
+
+    .spotify1{ 
+        grid-area: spotify1; margin: 30px;
+    }
+    .spotify2{ 
+        grid-area: spotify2; margin: 30px;
+    }
+    .spotify3{ 
+        grid-area: spotify3; margin: 30px;
+    }
+    .spotify4{ 
+        grid-area: spotify4; margin: 30px;
+    }
+    .spotify5{ 
+        grid-area: spotify5; margin: 30px;
+    }
+    .spotify6{ 
+        grid-area: spotify6; margin: 30px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .spotify {
+        margin-left: 10px;
+        display: block
+    }
+}
