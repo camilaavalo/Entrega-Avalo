@@ -34,9 +34,9 @@
 @media screen and (max-width: 480px) {
         .imagenTexto{ display: block ;
         }
-        .foto1{ 
+        .imagenTexto .foto1{ 
                 padding: 0px;
-                width: 400px;
+                width: 0px;
                 justify-content: center;
                 margin-bottom: 30px;
         }
