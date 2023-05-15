@@ -130,32 +130,29 @@ a {
 .imagenTexto .texto4 {
   grid-area: texto4;
 }
-
-.foto1 {
+.imagenTexto .foto1 {
   grid-area: imagen;
   width: 600px;
   padding-left: 30px;
 }
-
-.foto1:hover{
-  width: 700px
+.imagenTexto .negrita {
+  font-weight: 600;
 }
-
-
 @media screen and (max-width: 480px) {
-  .imagenTexto {
+  .imagenTexto .imagenTexto {
     display: block;
   }
-  .foto1 {
+  .imagenTexto .foto1 {
     padding: 0px;
     width: 400px;
     justify-content: center;
     margin-bottom: 30px;
   }
-  .video {
+  .imagenTexto .video {
     width: 400px;
   }
 }
+
 .textoNacimiento {
   display: grid;
   grid-template-columns: 70%;
@@ -166,6 +163,10 @@ a {
   padding-left: 40px;
 }
 
+.negrita {
+  font-weight: 600;
+}
+
 @media screen and (max-width: 768px) {
   .textoNacimiento {
     display: grid;
@@ -173,16 +174,18 @@ a {
   }
 }
 .fotoFechas {
-  width: 1000px;
+  width: 800px;
   display: flex;
   justify-content: center;
   margin-left: 90px;
   margin-bottom: 40px;
 }
-.fotoFechas:hover{width: 1100px;}
+.fotoFechas:hover {
+  width: 1000px;
+}
 
 .fechaImportante {
-  background-color: #5d5088;
+  background-color: rgb(41, 36, 58);
   background-repeat: repeat;
   padding: 0;
   display: grid;
@@ -233,7 +236,7 @@ a {
 
 @media screen and (max-width: 480px) {
   .fotoFechas {
-    width: 350px;
+    width: 440px;
     margin-left: 0px;
   }
 }
