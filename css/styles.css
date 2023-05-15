@@ -135,24 +135,25 @@ a {
   width: 600px;
   padding-left: 30px;
 }
-.imagenTexto .negrita {
+
+.negrita {
   font-weight: 600;
 }
+
 @media screen and (max-width: 480px) {
-  .imagenTexto .imagenTexto {
+  .imagenTexto {
     display: block;
   }
-  .imagenTexto .foto1 {
+  .foto1 {
     padding: 0px;
     width: 400px;
     justify-content: center;
     margin-bottom: 30px;
   }
-  .imagenTexto .video {
+  .video {
     width: 400px;
   }
 }
-
 .textoNacimiento {
   display: grid;
   grid-template-columns: 70%;
@@ -171,6 +172,9 @@ a {
   .textoNacimiento {
     display: grid;
     grid-template-columns: 100%;
+  }
+  .carousel-indicators {
+    padding-left: 40px;
   }
 }
 .fotoFechas {
