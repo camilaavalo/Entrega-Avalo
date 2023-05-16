@@ -144,7 +144,7 @@ a {
   .imagenTexto {
     display: block;
   }
-  .foto1 {
+  .imagenTexto .foto1 {
     padding: 0px;
     width: 400px;
     justify-content: center;
@@ -240,7 +240,7 @@ a {
 
 @media screen and (max-width: 480px) {
   .fotoFechas {
-    width: 350px;
+    width: 400px;
     margin-left: 0px;
   }
 }
